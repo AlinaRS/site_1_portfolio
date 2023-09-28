@@ -8,7 +8,7 @@
   font-size: 18px;
   letter-spacing: 2.306px;
   padding-top: 891px;
-  padding-left: 7px;
+  padding-left: 4px;
 }
 
 .about__title-h2:after {
@@ -50,8 +50,9 @@
 
 .about__right {
   display: flex;
+  justify-content: space-between;
   align-items: flex-end;
-  margin-right: 7px;
+
 }
 
 .about__right-item {
@@ -66,9 +67,11 @@
   letter-spacing: 0.188px;
   text-transform: uppercase;
   padding: 15px;
-  margin-right: 15px;
+  margin-right: 18px;
 }
-
+.about__right-item:first-child {
+    margin-right: 22px;
+  }
 .about__right-item:last-child {
   margin-right: 0px;
 }
@@ -128,5 +131,8 @@
   }
   .about__right-item:last-child {
     margin-bottom: 0px;
+  }
+  .about__right-item:first-child {
+    margin-right: 0px;
   }
 }
